@@ -1,0 +1,36 @@
+# Ignore history folder
+.history/
+
+# Ignore IDE/editor configurations
+.idea/
+.vscode/
+
+# Ignore frontend folder
+frontend/
+
+# Ignore environment variables
+.env
+
+# Ignore log files
+job_assistant.log
+
+.DS_Store
+*.log
+
+
+# Streamlit configuration folder in backend
+backend/.streamlit/
+
+# VSCode settings in backend
+backend/.vscode/
+
+# Environment variables in backend
+backend/.env
+
+# Log files in backend
+backend/job_assistant.log
+
+
+__pycache__/
+*.pyc
+
