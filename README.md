@@ -1,8 +1,9 @@
 # Professional Job Assistant
-https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white
-https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
-https://img.shields.io/badge/Google%2520Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white
-https://img.shields.io/badge/SerpAPI-34A853?style=for-the-badge&logo=google&logoColor=white
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Google%20Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![SerpAPI](https://img.shields.io/badge/SerpAPI-34A853?style=for-the-badge&logo=google&logoColor=white)
+
 
 ## 🚀 Overview
 Professional Job Assistant is an AI-powered application that helps job seekers create tailored job applications with personalized cover letters, resume analysis, company research, and ATS (Applicant Tracking System) optimization. Built with Streamlit and powered by Google Gemini AI, this tool provides a comprehensive suite of features to enhance your job application process.
