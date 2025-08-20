@@ -6,7 +6,7 @@
 
 
 ## 🚀 Overview
-Professional Job Assistant is an AI-powered application that helps job seekers create tailored job applications with personalized cover letters, resume analysis, company research, and ATS (Applicant Tracking System) optimization. Built with Streamlit and powered by Google Gemini AI, this tool provides a comprehensive suite of features to enhance your job application process.
+Professional Job Assistant is an AI-powered application that helps job seekers create tailored job applications with personalized cover letters, resume analysis, company research, and ATS (Applicant Tracking System) optimization. Built with Streamlit and powered by Google Gemini AI (using it as an API for prompt engineering), this tool provides a comprehensive suite of features to enhance your job application process.
 
 ## ✨ Features
 - 🤖 AI-Powered Cover Letters: Generate professional cover letters tailored to specific job descriptions
