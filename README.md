@@ -129,8 +129,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## ⚠️ Disclaimer
 This tool generates AI-powered content that should be reviewed and customized before use. Results may vary based on input quality and API limitations. Always verify company information from official sources.
 
-
-
+---
+## Screenshots
 
 <img width="2256" height="1504" alt="image" src="https://github.com/user-attachments/assets/a0308f2b-f772-433c-ae55-8b46da3f3fe7" />
 
