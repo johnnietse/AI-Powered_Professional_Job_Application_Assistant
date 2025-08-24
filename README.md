@@ -146,14 +146,6 @@ The architecture separates concerns effectively:
 
 1. **LangGraph Workflow (`build_workflow`` function)**
 - **Pattern**: Implements a directed acyclic graph (DAG). The flow is `extract_resume -> research_company -> generate_resume_summary -> calculate_ats_score -> generate_cover_letter -> END`.
-
-flowchart LR
-    A[extract_resume] --> B[research_company]
-    B --> C[generate_resume_summary]
-    C --> D[calculate_ats_score]
-    D --> E[generate_cover_letter]
-    E --> F([END])
-
 - **State Management**: Uses a strongly-typed `ProfessionalState` (a `TypedDict`) to pass data between nodes. This is excellent practice as it makes the data structure explicit and prevents runtime errors related to missing or misspelled keys.
 - **Scalability**: This architecture makes it trivial to add new steps. For example, adding a `generate_follow_up_email` node would be a matter of defining the function and adding it to the graph with the appropriate edges.
 
