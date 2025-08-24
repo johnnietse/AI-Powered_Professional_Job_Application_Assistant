@@ -41,7 +41,7 @@ Professional Job Assistant is an AI-powered application that helps job seekers c
 ### Setup Instructions
 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/professional-job-assistant.git
+git clone https://github.com/johnnietse/professional-job-assistant.git
 cd professional-job-assistant
 ```
 
