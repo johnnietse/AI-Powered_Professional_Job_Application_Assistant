@@ -246,6 +246,7 @@ We've enhanced the application's flexibility and security by integrating a user-
 - **Dynamic Configuration**: The application's Gemini client is reconfigured in real-time upon key entry, enabling immediate use of all AI features without a restart.
 
 This change allows for greater user autonomy and aligns with best practices for handling API credentials outside of pre-configured environment variables.
+
 ---
 
 ## 🎥 Demo Video
