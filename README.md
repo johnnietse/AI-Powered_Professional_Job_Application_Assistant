@@ -457,7 +457,7 @@ ApplicaAI is designed mobile-first, providing a smooth resume-building experienc
 1. **Clone the repository**
 ```bash
 git clone https://github.com/johnnietse/AI-Powered_Professional_Job_Application_Assistant.git
-cd ApplicaAI
+cd AI-Powered_Professional_Job_Application_Assistant
 ```
 
 2. **Install dependencies**
@@ -610,3 +610,9 @@ Join our community of contributors! Every skill level welcome.
 4. Push to branch (`git push origin feature/your-idea`)
 5. Open a Pull Request with detailed description
 
+---
+## 🎥 Demo Video
+A short walkthrough of the application is available below.
+
+▶️ Watch the full demo here:
+https://youtu.be/fDAqn3R4_hY?si=hAvtQmliPQntn63R
