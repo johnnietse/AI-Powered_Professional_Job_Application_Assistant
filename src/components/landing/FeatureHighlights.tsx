@@ -191,7 +191,7 @@ const FeatureHighlights = () => {
             />
 
             <SplitContent
-              imageSrc="/Dashboard Image.png"
+              imageSrc="/ss4.webp"
               heading="Beautiful Resume Dashboard"
               description="Manage all your resumes in one place with our intuitive dashboard. Create base resumes, generate tailored versions for specific jobs, and track your application progress with ease."
               imageOnLeft={true}

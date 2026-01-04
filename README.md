@@ -379,7 +379,7 @@ Before & After:
 - ATS-friendly formatting with professional phrasing and keyword optimization that highlights achievements
 
 ### Resume Dashboard & Management
-![Resume Dashboard](public/Dashboard%20Image.png)
+![Resume Dashboard](public/images/ss4.webp)
 
 **Organize & Centralize the Entire Job Search Workflow**
 - Centralized resume managment
