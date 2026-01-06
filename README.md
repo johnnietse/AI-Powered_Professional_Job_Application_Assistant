@@ -619,51 +619,30 @@ https://youtu.be/fDAqn3R4_hY?si=hAvtQmliPQntn63R
 
 ---
 ## License — GNU Affero General Public License v3.0 (AGPL-3.0)
-
 This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**, a strong copyleft license designed to ensure that software remains free and open, even when used over a network.
 
 ### What you are allowed to do
-
 Under the AGPL-3.0, you may:
-
 #### Use commercially
-Use this project and its derivatives for commercial purposes.
-
+- Use this project and its derivatives for commercial purposes.
 #### Modify
-Change, adapt, or extend the source code.
-
+- Change, adapt, or extend the source code.
 #### Distribute
-Share the original project or your modified versions.
-
+- Share the original project or your modified versions.
 #### Use patents
-Contributors grant an express patent license for their contributions.
-
+- Contributors grant an express patent license for their contributions.
 #### Use privately
-Use and modify the software privately without distribution.
+- Use and modify the software privately without distribution.
 
 ### Conditions you must follow
-
 If you use, modify, or distribute this software, you must:
-
 #### Preserve license and copyright notices
-Include a copy of the AGPL-3.0 license and retain existing copyright notices.
-
+- Include a copy of the AGPL-3.0 license and retain existing copyright notices.
 #### Document changes
-Clearly state any modifications you make to the original code.
-
+- Clearly state any modifications you make to the original code.
 #### Disclose source code
-Make the complete corresponding source code available when you distribute the software.
-
+- Make the complete corresponding source code available when you distribute the software.
 #### Network use counts as distribution
-If you run a modified version of this software to provide a service over a network (e.g., a web app or API), users interacting with it are entitled to receive the full source code of that modified version.
-
+- If you run a modified version of this software to provide a service over a network (e.g., a web app or API), users interacting with it are entitled to receive the full source code of that modified version.
 #### Use the same license
-Any distributed modifications or larger works based on this project must be licensed under AGPL-3.0 (or a compatible license, where applicable).
-
-### Limitations
-
-#### No warranty
-This software is provided “as is”, without any warranty.
-
-#### No liability
-The license limits liability for damages arising from use of the software.
+- Any distributed modifications or larger works based on this project must be licensed under AGPL-3.0 (or a compatible license, where applicable).
