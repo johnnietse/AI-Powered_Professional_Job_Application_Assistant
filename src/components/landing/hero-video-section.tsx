@@ -72,7 +72,7 @@ export function HeroVideoSection() {
               controls
               autoPlay={isOpen}
               className="h-full w-full"
-              src="/ResumeLM.mp4"
+              src="/ApplicaAI.mp4"
             />
           </div>
         </DialogContent>

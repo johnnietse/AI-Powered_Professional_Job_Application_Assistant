@@ -75,7 +75,7 @@ export function VideoShowcase() {
               <video 
                 ref={videoRef}
                 className="w-full h-full object-cover rounded-2xl"
-                src="/ResumeLM.mp4"
+                src="/ApplicaAI.mp4"
                 poster="/thumbnail.png"
                 onEnded={() => setIsPlaying(false)}
               />
@@ -102,7 +102,7 @@ export function VideoShowcase() {
               {/* Controls overlay - bottom */}
               <div className="absolute bottom-0 left-0 right-0 p-4 flex justify-between items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20">
                 <div className="text-sm bg-indigo-50 text-indigo-700 px-3 py-1 rounded-full border border-indigo-200">
-                  ResumeLM Demo
+                  ApplicaAI Demo
                 </div>
                 <button
                   onClick={(e) => {

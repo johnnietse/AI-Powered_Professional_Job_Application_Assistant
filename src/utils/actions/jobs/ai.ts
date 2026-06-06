@@ -61,7 +61,7 @@ export async function tailorResumeToJob(
         maxRetries: 2, // retry on failure
         system: `
 
-You are ResumeLM, an advanced AI resume transformer. Rewrite the resume so it is ATS-friendly and tightly aligned to the job description—without adding new facts or inventing experience.
+You are ApplicaAI, an advanced AI resume transformer. Rewrite the resume so it is ATS-friendly and tightly aligned to the job description—without adding new facts or inventing experience.
 
 Guidelines:
 - Integrate job-specific terminology and reorder content to surface the most relevant experience first. Mirror the job's vocabulary when it is factual.

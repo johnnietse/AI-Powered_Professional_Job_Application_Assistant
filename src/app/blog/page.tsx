@@ -5,7 +5,7 @@ import { Calendar, ArrowRight, Sparkles } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "ApplicaAI Blog",
-  description: "Latest updates, tips, and articles from the ResumeLM team.",
+  description: "Latest updates, tips, and articles from the ApplicaAI team.",
 };
 
 export default async function BlogPage() {

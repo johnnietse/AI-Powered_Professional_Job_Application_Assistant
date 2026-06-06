@@ -12,17 +12,17 @@ import { cookies } from "next/headers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://resumelm.com"),
+  metadataBase: new URL("https://applicaai.com"),
   title: {
-    default: "ResumeLM - AI-Powered Resume Builder",
-    template: "%s | ResumeLM"
+    default: "ApplicaAI - AI-Powered Resume Builder",
+    template: "%s | ApplicaAI"
   },
   description: "Create tailored, ATS-optimized resumes powered by AI. Land your dream tech job with personalized resume optimization.",
-  applicationName: "ResumeLM",
+  applicationName: "ApplicaAI",
   keywords: ["resume builder", "AI resume", "ATS optimization", "tech jobs", "career tools", "job application"],
-  authors: [{ name: "ResumeLM" }],
-  creator: "ResumeLM",
-  publisher: "ResumeLM",
+  authors: [{ name: "ApplicaAI" }],
+  creator: "ApplicaAI",
+  publisher: "ApplicaAI",
   formatDetection: {
     email: false,
     address: false,
@@ -36,24 +36,24 @@ export const metadata: Metadata = {
 
   openGraph: {
     type: "website",
-    siteName: "ResumeLM",
-    title: "ResumeLM - AI-Powered Resume Builder",
+    siteName: "ApplicaAI",
+    title: "ApplicaAI - AI-Powered Resume Builder",
     description: "Create tailored, ATS-optimized resumes powered by AI. Land your dream tech job with personalized resume optimization.",
     images: [
       {
         url: "/og.webp",
         width: 1200,
         height: 630,
-        alt: "ResumeLM - AI Resume Builder",
+        alt: "ApplicaAI - AI Resume Builder",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "ResumeLM - AI-Powered Resume Builder",
+    title: "ApplicaAI - AI-Powered Resume Builder",
     description: "Create tailored, ATS-optimized resumes powered by AI. Land your dream tech job with personalized resume optimization.",
     images: ["/og.webp"],
-    creator: "@resumelm",
+    creator: "@applicaai",
   },
   robots: {
     index: true,

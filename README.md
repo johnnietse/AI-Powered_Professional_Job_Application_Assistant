@@ -182,11 +182,11 @@ graph TB
     Kong --> Realtime
     Kong --> Storage
 
-    style Client fill:#1a1a2e,stroke:#e94560,color:#fff
-    style NextJS fill:#0d1117,stroke:#58a6ff,color:#fff
-    style AI fill:#1a1a2e,stroke:#7ee787,color:#fff
-    style Backend fill:#0d1117,stroke:#d29922,color:#fff
-    style Data fill:#1a1a2e,stroke:#f778ba,color:#fff
+    style Client fill:#fff0f3,stroke:#e94560,stroke-width:2px,color:#000
+    style NextJS fill:#f0f6ff,stroke:#58a6ff,stroke-width:2px,color:#000
+    style AI fill:#f0fff4,stroke:#2ea043,stroke-width:2px,color:#000
+    style Backend fill:#fffdf0,stroke:#d29922,stroke-width:2px,color:#000
+    style Data fill:#fff0f8,stroke:#d8619d,stroke-width:2px,color:#000
 ```
 
 ### Request Lifecycle
@@ -584,7 +584,7 @@ flowchart LR
     Scoring --> Improvements["Improvement<br/>Suggestions"]
     Scoring --> Keywords["Matched & Missing<br/>Keywords"]
 
-    style Scoring fill:#0d1117,stroke:#58a6ff,color:#fff
+    style Scoring fill:#f0f6ff,stroke:#58a6ff,stroke-width:2px,color:#000
 ```
 
 ---
@@ -798,10 +798,10 @@ graph TB
     Seeder --> Auth
     RedisCmd --> Redis
 
-    style DockerNetwork fill:#0d1117,stroke:#30363d,color:#c9d1d9
-    style SupabaseStack fill:#1a1a2e,stroke:#3FCF8E,color:#fff
-    style CacheLayer fill:#1a1a2e,stroke:#DC382D,color:#fff
-    style AppLayer fill:#1a1a2e,stroke:#58a6ff,color:#fff
+    style DockerNetwork fill:#f6f8fa,stroke:#d0d7de,stroke-width:2px,color:#24292f
+    style SupabaseStack fill:#f0fdf4,stroke:#3FCF8E,stroke-width:2px,color:#000
+    style CacheLayer fill:#fff1f0,stroke:#DC382D,stroke-width:2px,color:#000
+    style AppLayer fill:#f0f6ff,stroke:#58a6ff,stroke-width:2px,color:#000
 ```
 
 ### Quick Start with Docker

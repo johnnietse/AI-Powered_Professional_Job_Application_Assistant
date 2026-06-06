@@ -1,5 +1,5 @@
--- ResumeLM Application Schema
--- This file contains all the SQL statements needed to set up the ResumeLM database schema
+-- ApplicaAI Application Schema
+-- This file contains all the SQL statements needed to set up the ApplicaAI database schema
 -- It will run automatically on first database initialization
 --
 -- NOTE: We don't use foreign keys to auth.users because GoTrue creates that table

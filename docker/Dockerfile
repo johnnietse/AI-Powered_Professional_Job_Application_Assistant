@@ -56,6 +56,7 @@ COPY components.json eslint.config.mjs ./
 # Copy source and assets
 COPY src ./src
 COPY public ./public
+COPY content ./content
 
 EXPOSE 3000
 
@@ -84,6 +85,7 @@ COPY components.json eslint.config.mjs ./
 # Copy source and assets
 COPY src ./src
 COPY public ./public
+COPY content ./content
 
 # Build with placeholder values - replaced at runtime by entrypoint.sh
 # This allows a single image to work across all environments
@@ -93,6 +95,9 @@ ENV NEXT_PUBLIC_SUPABASE_URL="__NEXT_PUBLIC_SUPABASE_URL__" \
     NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY="__NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY__" \
     NEXT_PUBLIC_STRIPE_PRO_PRICE_ID="__NEXT_PUBLIC_STRIPE_PRO_PRICE_ID__" \
     NEXT_TELEMETRY_DISABLED=1
+
+# Stripe key for build-time page pre-rendering (use placeholder)
+ENV STRIPE_SECRET_KEY="sk_placeholder_for_build"
 
 
 # Build the application
@@ -105,12 +110,11 @@ FROM node:22-slim AS production
 
 # OCI labels for container metadata
 LABEL org.opencontainers.image.title="ApplicaAI" \
-      org.opencontainers.image.description="AI-powered resume builder" \
-      org.opencontainers.image.vendor="ApplicaAI" \
-      org.opencontainers.image.source="https://github.com/resumelm/resumelm"
+    org.opencontainers.image.description="AI-powered resume builder" \
+    org.opencontainers.image.vendor="ApplicaAI" \
 
-# Install ONLY runtime libraries for canvas (not -dev packages)
-RUN apt-get update && apt-get install -y --no-install-recommends \
+    # Install ONLY runtime libraries for canvas (not -dev packages)
+    RUN apt-get update && apt-get install -y --no-install-recommends \
     libcairo2 \
     libpango-1.0-0 \
     libpangocairo-1.0-0 \

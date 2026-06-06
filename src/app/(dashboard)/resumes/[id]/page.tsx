@@ -65,13 +65,13 @@ export async function generateMetadata({
     const { id } = await params;
     const { resume } = await getResumePageData(id);
     return {
-      title: `${resume.name} | ResumeLM`,
+      title: `${resume.name} | ApplicaAI`,
       description: `Editing ${resume.name} - ${resume.target_role} resume`,
     };
   } catch (error) {
     void error;
     return {
-      title: 'Resume Editor | ResumeLM',
+      title: 'Resume Editor | ApplicaAI',
       description: 'AI-powered resume editor',
     };
   }
